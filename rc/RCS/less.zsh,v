@@ -1,0 +1,42 @@
+head	1.2;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	2013.06.01.21.29.43;	author bildoon;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2013.06.01.21.27.35;	author bildoon;	state Exp;
+branches;
+next	;
+
+
+desc
+@invocation de less
+@
+
+
+1.2
+log
+@ajout des options -s et -R
+@
+text
+@
+export LESS='-sR -i -M -PM"%f" ?m(file %i of %m). ?L%LL,. ?s%sC.  ?e(END) ?x- Next\: "%x".:%lt-%lb ?P%PB\%..%t'
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d2 1
+a2 1
+export LESS='-i -M -PM"%f" ?m(file %i of %m). ?L%LL,. ?s%sC.  ?e(END) ?x- Next\: "%x".:%lt-%lb ?P%PB\%..%t'
+@

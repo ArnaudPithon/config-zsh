@@ -1,0 +1,7 @@
+# vim: ft=zsh
+# $Id: functions,v 1.2 2013/09/21 16:35:10 bildoon Exp $
+
+_ssh-key() {
+	pwsafe -Epq ssh.id@$HOST | xclip -i -loop 1 &> /dev/null;
+	command "$@"
+}

@@ -1,0 +1,46 @@
+head	1.2;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	2013.10.07.23.35.30;	author bildoon;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2013.10.07.23.33.44;	author bildoon;	state Exp;
+branches;
+next	;
+
+
+desc
+@zprofile
+@
+
+
+1.2
+log
+@les binaires locaux sont placés en priorité dans le PATH
+@
+text
+@# .zprofile
+# vim: ft=zsh
+
+# Placés ici, plutot que dans .zshrc pour être vu par i3
+export PATH="$HOME/.local/bin:$PATH"
+export TERMINAL="x-term"
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d5 1
+a5 1
+export PATH="$PATH:$HOME/.local/bin"
+@

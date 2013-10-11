@@ -1,0 +1,50 @@
+head	1.2;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	2013.09.21.16.35.10;	author bildoon;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2013.09.21.16.30.09;	author bildoon;	state Exp;
+branches;
+next	;
+
+
+desc
+@fichier de fonctions génériques utilisées par mon shell zsh
+@
+
+
+1.2
+log
+@lève une ambiguité dans le cas où plusieurs entrées correspondent avec uniquement le nom d'hôte
+@
+text
+@# vim: ft=zsh
+# $Id: functions,v 1.1 2013/09/21 16:30:09 bildoon Exp bildoon $
+
+_ssh-key() {
+	pwsafe -Epq ssh.id@@$HOST | xclip -i -loop 1 &> /dev/null;
+	command "$@@"
+}
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d2 1
+a2 1
+# $Id$
+d5 1
+a5 1
+	pwsafe -Epq $HOST | xclip -i -loop 1 &> /dev/null;
+@
