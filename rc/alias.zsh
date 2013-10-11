@@ -1,5 +1,4 @@
 # vim: ft=zsh
-# $Id: alias.zsh,v 1.5 2013/09/25 20:02:29 bildoon Exp $
 
 alias cp='cp --interactive'
 alias rm='rm --interactive'

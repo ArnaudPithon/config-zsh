@@ -1,4 +1,3 @@
-# $Id: bindkey.zsh,v 1.6 2013/06/09 21:54:17 bildoon Exp $
 # bindkey -v (mode vi) implicite par la définition de la variable $EDITOR
 # (voir zshzle(1)).
 
