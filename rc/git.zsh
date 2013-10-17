@@ -6,4 +6,4 @@ alias gd='git diff'
 alias glog='git log'
 alias gb='git branch'
 alias gco='git checkout'
-
+alias gvd='vim "+VCSVimDiff"'
