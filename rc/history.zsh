@@ -10,4 +10,6 @@ setopt INC_APPEND_HISTORY
 setopt SHARE_HISTORY
 setopt HIST_IGNORE_ALL_DUPS
 setopt HIST_IGNORE_SPACE
-setopt HIST_REDUCE_BLANKS
+# Correctif temporaire tant que ce bug est présent
+# <id:http://www.zsh.org/mla/users/2013/msg00456.html>
+#setopt HIST_REDUCE_BLANKS
