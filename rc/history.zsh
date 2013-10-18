@@ -13,7 +13,7 @@ setopt HIST_IGNORE_SPACE
 # Correctif temporaire tant que ce bug est présent
 # http://www.zsh.org/mla/users/2013/msg00456.html
 # <url:man:zshoptions#tn=HIST_REDUCE_BLANKS>
-if [[ 'uname -m' == 'x86_64' ]]; then
+if [[ `uname -m` == 'x86_64' ]]; then
 	setopt NO_HIST_REDUCE_BLANKS
 else
 	setopt HIST_REDUCE_BLANKS
