@@ -7,3 +7,7 @@ ssh() {
 scp() {
 	_ssh-key /usr/bin/scp "$@"
 }
+
+skey() {
+	_ssh-key
+}
