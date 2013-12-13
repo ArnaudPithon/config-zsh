@@ -10,3 +10,12 @@ okular() {
 		/usr/bin/okular "$@"
 	fi
 }
+
+ktorrent() {
+	if [ $DISPLAY = 'localhost:10.0' ];
+	then
+		/usr/bin/ktorrent --graphicssystem native "$@"
+	else
+		/usr/bin/ktorrent "$@"
+	fi
+}
