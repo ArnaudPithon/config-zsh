@@ -19,3 +19,21 @@ ktorrent() {
 		/usr/bin/ktorrent "$@"
 	fi
 }
+
+konqueror() {
+	if [ $DISPLAY = 'localhost:10.0' ];
+	then
+		/usr/bin/konqueror --graphicssystem native "$@"
+	else
+		/usr/bin/konqueror "$@"
+	fi
+}
+
+skrooge() {
+	if [ $DISPLAY = 'localhost:10.0' ];
+	then
+		/usr/bin/skrooge --graphicssystem native "$@"
+	else
+		/usr/bin/skrooge "$@"
+	fi
+}
