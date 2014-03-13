@@ -21,13 +21,13 @@ bindkey '\e[3~' delete-char
 bindkey '\e[1~' beginning-of-line
 bindkey '\e[4~' end-of-line
 # Recherche contextuelle dans l'historique avec PageUp et PageDown
-bindkey '\e[5~' history-search-backward
-bindkey '\e[6~' history-search-forward
+bindkey '\e[5~' history-beginning-search-backward
+bindkey '\e[6~' history-beginning-search-forward
 
 bindkey -M vicmd '\e[1~' beginning-of-line
 bindkey -M vicmd '\e[4~' end-of-line
-bindkey -M vicmd '\e[5~' history-search-backward
-bindkey -M vicmd '\e[6~' history-search-forward
+bindkey -M vicmd '\e[5~' history-beginning-search-backward
+bindkey -M vicmd '\e[6~' history-beginning-search-forward
 
 bindkey -M vicmd 'c' vi-backward-char
 bindkey -M vicmd 'r' vi-forward-char
