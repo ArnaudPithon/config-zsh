@@ -20,6 +20,8 @@ bindkey '\e[3~' delete-char
 # touches Home et End
 bindkey '\e[1~' beginning-of-line
 bindkey '\e[4~' end-of-line
+bindkey '\e[7~' beginning-of-line
+bindkey '\e[8~' end-of-line
 # Recherche contextuelle dans l'historique avec PageUp et PageDown
 bindkey '\e[5~' history-beginning-search-backward
 bindkey '\e[6~' history-beginning-search-forward
