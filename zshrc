@@ -2,7 +2,7 @@
 
 setopt extendedglob correct interactivecomments
 
-export EMAIL="arno <apithon@free.fr>"
+export EMAIL="bildoon <bildoon@free.fr>"
 export EDITOR="vim"
 export BROWSER="elinks"
 export PAGER="less"
