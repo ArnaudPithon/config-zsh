@@ -14,6 +14,7 @@ alias jumpstat='autojump --stat'
 #alias hideprev='history -d $(($HISTCMD-2)) && history -d $(($HISTCMD-1))'
 # -d n'efface pas l'entrée désignée comme avec Bash.
 
+alias grep='grep --color=auto'
 alias -g G='| grep '
 
 alias here='rep=$(basename $PWD) ; eval $rep=$PWD ; echo ~$rep > /dev/null'
