@@ -22,8 +22,8 @@ alias here='rep=$(basename $PWD) ; eval $rep=$PWD ; echo ~$rep > /dev/null'
 # Permet de sauvegarder les attachements dans le répertoire Desktop.
 alias mutt='cd ~/Desktop ; mutt ; cd - > /dev/null'
 
-alias ccp='/usr/bin/rsync -hh --times --recursive --progress'
-alias cmv='/usr/bin/rsync -hh --times --recursive --progress --remove-source-files'
+alias ccp='/usr/bin/rsync -hh --times --recursive --links --progress'
+alias cmv='/usr/bin/rsync -hh --times --recursive --links --progress --remove-source-files'
 
 alias mp3gain='/usr/bin/mp3gain -k -s i -t -p'
 
