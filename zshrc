@@ -2,7 +2,7 @@
 
 setopt extendedglob correct interactivecomments
 
-export EMAIL="bildoon <bildoon@free.fr>"
+export EMAIL="bildoon <bildoon@icarios.net>"
 export EDITOR="vim"
 export BROWSER="elinks"
 export PAGER="less"
