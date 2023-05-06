@@ -1,9 +1,14 @@
+. $ZDOTDIR/rc/functions
 
-alias gs='git status --short --branch'
-alias ga='git add'
-alias gc='git commit'
-alias gd='git diff'
-alias glog='git log'
-alias gb='git branch'
-alias gco='git checkout'
-alias gvd='vim "+VCSVimDiff"'
+git() {
+	_ssh-key /usr/bin/git "$@"
+}
+
+alias gst='command git status --short --branch'
+alias gadd='command git add'
+alias gcmt='command git commit'
+alias gdif='command git diff'
+alias glog='command git log'
+alias gbr='command git branch'
+alias gck='command git checkout'
+alias gvid='vim "+VCSVimDiff"'
