@@ -1,6 +1,6 @@
 # vim: ft=zsh
 
 _ssh-key() {
-	pwsafe -Epq ssh.id@$HOST | xclip -i -loop 1 &> /dev/null;
+	pwsafe -Epq clef.ssh.id@$HOST | xclip -i -loop 1 &> /dev/null;
 	command "$@"
 }
