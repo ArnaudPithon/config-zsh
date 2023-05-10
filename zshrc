@@ -3,7 +3,7 @@
 setopt extendedglob correct interactivecomments
 
 export EMAIL="bildoon <bildoon@icarios.net>"
-export EDITOR="vim"
+export EDITOR="nvim"
 export BROWSER="elinks"
 export PAGER="less"
 export TERMCMD=${TERMINAL}
