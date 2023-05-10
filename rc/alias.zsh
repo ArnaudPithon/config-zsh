@@ -28,3 +28,5 @@ alias cmv='/usr/bin/rsync -hh --times --recursive --links --progress --remove-so
 alias mp3gain='/usr/bin/mp3gain -k -s i -t -p'
 
 alias free='LANG=C free'
+
+alias pwid='pwsafe -Epq clef.ssh.id@`hostname -s` | xclip -i -loop 1'
