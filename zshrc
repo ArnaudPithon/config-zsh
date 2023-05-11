@@ -1,5 +1,7 @@
 # vim: ft=zsh
 
+export ZDOTDIR="$HOME/.config/zsh"
+
 setopt extendedglob correct interactivecomments
 
 export EMAIL="bildoon <bildoon@icarios.net>"
