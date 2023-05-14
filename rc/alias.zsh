@@ -30,3 +30,6 @@ alias mp3gain='/usr/bin/mp3gain -k -s i -t -p'
 alias free='LANG=C free'
 
 alias pwid="pwsafe -Epq clef.ssh.id@$HOST | xclip -i -loop 1"
+
+alias vi='nvim'
+alias vim='nvim'
