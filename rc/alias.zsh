@@ -32,6 +32,6 @@ alias free='LANG=C free'
 alias pwid="pwsafe -Epq clef.ssh.id@$HOST | xclip -i -loop 1"
 
 alias vi='nvim'
-alias vim='nvim'
+alias nvi='nvim'
 alias view='nvim -R'
 alias vimdiff='nvim -d'
