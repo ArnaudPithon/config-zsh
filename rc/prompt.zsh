@@ -8,8 +8,11 @@ case $USER in
 	pkgusr)
 		color_cadre="%F{cyan}"
 		;;
-	*)
+	bildoon)
 		color_cadre="$color_barre"
+		;;
+	*)
+		color_cadre="%F{green}"
 		;;
 esac
 user="%F{default}%n%f"
