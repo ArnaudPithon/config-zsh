@@ -6,7 +6,7 @@ setopt extendedglob correct interactivecomments
 
 export EMAIL="bildoon <bildoon@icarios.net>"
 export EDITOR="nvim"
-export BROWSER="elinks"
+export BROWSER="firefox"
 export PAGER="less"
 export TERMCMD=${TERMINAL}
 
@@ -21,3 +21,6 @@ export WORDCHARS='*?_-.[]~=&;!#$%^(){}<>'
 for file in $ZDOTDIR/rc/*.zsh; do
 	source $file
 done
+
+# https://www.postgresql.org/docs/current/color.html
+export PG_COLOR='auto'
